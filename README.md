@@ -41,3 +41,13 @@ In this repository, you will find all the code for the portfolio built in the We
     - `alt`
     - `width`
     - `height`
+- Tables Branch: Here you will see a tables file that goes into detail about tables in HTML. In this section, we used:
+    - `table`
+    - `thead`
+    - `tbody`
+    - `tfooter`
+    - `th`
+    - `tr`
+    - `td`
+    - `scope`
+    - `span`
