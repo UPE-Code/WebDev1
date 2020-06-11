@@ -22,3 +22,4 @@ In this repository, you will find all the code for the portfolio built in the We
     - `em`
     - `strong`
     - `br`
+    - HTML entities
