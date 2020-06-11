@@ -35,3 +35,9 @@ In this repository, you will find all the code for the portfolio built in the We
     - `a`
     - `href`
     - `target`
+- Images Branch: Here you will find all the code dealing with all of the Image elements in the portfolio. In this section, we used:
+    - `img`
+    - `src`
+    - `alt`
+    - `width`
+    - `height`
