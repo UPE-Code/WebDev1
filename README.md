@@ -31,3 +31,7 @@ In this repository, you will find all the code for the portfolio built in the We
     - `dt`
     - `dd`
     - `i`
+- Links Branch: Here you will find all the code dealing with all of the link elements in the portfolio. You will also see a links file that goes into more detail about links in HTML. In this section, we used:
+    - `a`
+    - `href`
+    - `target`
