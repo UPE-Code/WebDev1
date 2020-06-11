@@ -15,7 +15,7 @@ In this repository, you will find all the code for the portfolio built in the We
     - `section`
     - `class`
     - `id`
-- Text Branch: Here you will find all the code dealing with all of the text relate elements in the portfolio. In this section, we used:
+- Text Branch: Here you will find all the code dealing with all of the text related elements in the portfolio. In this section, we used:
     - `h1-h4`
     - `p`
     - `span`
@@ -23,3 +23,11 @@ In this repository, you will find all the code for the portfolio built in the We
     - `strong`
     - `br`
     - HTML entities
+- Lists Branch: Here you will find all the code dealing with all of the list elements in the portfolio. You will also see a lists file that goes into more detail about lists in HTML. In this section, we used:
+    - `ul`
+    - `li`
+    - `ol`
+    - `dl`
+    - `dt`
+    - `dd`
+    - `i`
