@@ -7,6 +7,7 @@
   </head>
   <body id=home>
     <header class="Header">
+      <h1 class="Header__logo">dajuan</h1>
       <nav class="Header__navbar">
         <div class="Header__navigation">
           <ul class="Header__navContent">
@@ -44,6 +45,7 @@
           <p class="Aboout__info">
             Incubator sales graphical user interface mass market funding user experience network effects channels. Venture business-to-business A/B testing. Metrics technology infrastructure validation graphical user interface alpha crowdsource hypotheses conversion return on investment backing. Disruptive technology interaction design conversion return on investment long tail.
           </p>
+          <button class="btn About__btn">Download Resume</button>
         </div>
       </section>
       <section class="Work" id="work">
@@ -109,6 +111,27 @@
       <section class="Contact" id="contact">
         <h4 class="Contact__title">Contact</h4>
         <h2 class="Contact__subTitle">Get In Touch</h2>
+        <div class="Contact__formContainer">
+          <form action="/" method="post" class="Contact__form">
+            <div class="Contact__formField">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required class="Contact__input">
+            </div>
+            <div class="Contact__formField">
+              <label for="email">Email:</label>
+              <input type="email" name="email" id="email" required class="Contact__input">
+            </div>
+            <div class="Contact__formField">
+              <label for="name">Name:</label>
+              <input type="text" name="name" id="name" required class="Contact__input">
+            </div>
+            <div class="Contact__MessageField">
+              <label for="message">Message:</label>
+              <textarea name="message" id="message" class="Contact__mesage"></textarea>
+            </div>
+            <button type="submit" class="btn Contact__btn">Submit</button>
+          </form>
+        </div>
       </section>
     </main>
     <footer class="Footer">

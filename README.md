@@ -51,3 +51,10 @@ In this repository, you will find all the code for the portfolio built in the We
     - `td`
     - `scope`
     - `span`
+- Forms Branch: Here you will find all the code dealing with all of the form elements in the portfolio. In this section, we used:
+    - `form`
+    - `input`
+    - `textarea`
+    - `label`
+    - `buttons`
+    - Other form attributes
