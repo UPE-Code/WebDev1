@@ -1,5 +1,5 @@
 .Header {
-  background-color: var(--blueOpacity);
+  background:  var(--bgGradient);
 }
 
 .Header__logo {
@@ -16,5 +16,5 @@
 }
  
 .Header__highlight {
-  color: var(--accentOrange)
+  color: var(--accentYellow)
 }
