@@ -2,19 +2,41 @@
   background-color: var(--blueOpacity);
 }
 
-.Header__logo {
-  color: var(--white);
-}
-
-.Header__navLink {
-  color: var(--white);
-}
-
+.Header__logo,
+.Header__navLink,
 .Header__title, 
 .Header__subTitle {
   color: var(--white);
 }
+
+.Header__logo {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 3.2rem;
+}
+
+.Header__navLink {
+  text-decoration: none;
+}
+
+.Header__title {
+  font-size: 4.8rem;
+  line-height: 1.2;
+  letter-spacing: .8rem;
+  font-weight: 700;
+}
+
+.Header__subTitle {
+  font-size: 3rem;
+}
+
+.Header__wave {
+  color: var(--accentOrange);
+}
+
  
 .Header__highlight {
-  color: var(--accentOrange)
+  color: var(--accentOrange);
+  font-style: italic;
 }

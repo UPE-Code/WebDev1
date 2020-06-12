@@ -1,6 +1,10 @@
 /* Variables */
 @import "./variables.css";
 
+/* Base Styles */
+
+@import "./base.css";
+
 /* Section Styles */
 @import "./sectionStyles/Header.css";
 @import "./sectionStyles/About.css";
