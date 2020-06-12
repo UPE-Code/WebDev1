@@ -1,0 +1,19 @@
+.Work {
+  background-color: var(--greyBg);
+}
+
+.Work__title {
+  color: var(--accentOrange);
+}
+
+.Work__subTitle {
+  color: var(--accentBlue);
+}
+
+.Work__projectTitle {
+ color: var(--accentBlue);
+}
+
+.Work__projectInfo {
+  color: var(--blueOpacity)
+}

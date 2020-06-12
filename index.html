@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+    <link rel="stylesheet" href="./styles/main.css" type="text/css">
+
     <title>DaJuan's Portfolio</title>
 
     <script src="https://kit.fontawesome.com/fff4d5abe8.js" crossorigin="anonymous"></script>
@@ -27,11 +30,11 @@
         </div>
       </nav>
       <section class="Header__content">
-        <h1>DaJuan</h1>
-        <p>A <span class="Header__highlight"><em>Full Stack Developer</em></span></p>
+        <h1 class="Header__title">DaJuan</h1>
+        <p class="Header__subTitle">A <span class="Header__highlight"><em>Full Stack Developer</em></span></p>
       </section>
     </header>
-    <main class="Main">
+    <main class="Container">
       <section class=About" id="about">
         <div class="About__ImgContainer">
           <img class="About__img" src="./assets/DJH.png" alt="DaJuan Harris" height="342px" width="342px"/>
@@ -39,18 +42,18 @@
         <div class="About__content">
           <h4 class="About__title">About</h4>
           <h2 class="About__subTitle">I'm DaJuan Harris</h2>
-          <p class="Aboout__info">
+          <p class="About__info">
             Partnership learning curve iPad termsheet iPhone. MVP deployment product management supply chain mass market market bootstrapping infographic accelerator business model canvas hypotheses ownership twitter. Virality lean startup freemium marketing gamification hypotheses. Seed money value proposition launch party customer buyer.
           </p>
-          <p class="Aboout__info">
+          <p class="About__info">
             Incubator sales graphical user interface mass market funding user experience network effects channels. Venture business-to-business A/B testing. Metrics technology infrastructure validation graphical user interface alpha crowdsource hypotheses conversion return on investment backing. Disruptive technology interaction design conversion return on investment long tail.
           </p>
           <button class="btn About__btn">Download Resume</button>
         </div>
       </section>
       <section class="Work" id="work">
-        <h4>Work</h4>
-        <h2>Latest Projects</h2>
+        <h4 class="Work__title">Work</h4>
+        <h2 class="Work__subTitle">Latest Projects</h2>
         <div class="Work__projects">
           <div class="Work__project">
             <div class="Work__projectImgContainer">
@@ -114,19 +117,19 @@
         <div class="Contact__formContainer">
           <form action="/" method="post" class="Contact__form">
             <div class="Contact__formField">
-              <label for="name">Name:</label>
+              <label class="Contact__label" for="name">Name:</label>
               <input type="text" name="name" id="name" required class="Contact__input">
             </div>
             <div class="Contact__formField">
-              <label for="email">Email:</label>
+              <label class="Contact__label" for="email">Email:</label>
               <input type="email" name="email" id="email" required class="Contact__input">
             </div>
             <div class="Contact__formField">
-              <label for="name">Name:</label>
-              <input type="text" name="name" id="name" required class="Contact__input">
+              <label class="Contact__label" for="phone">Phone Number:</label>
+              <input type="text" name="phone" id="phone" required class="Contact__input">
             </div>
             <div class="Contact__MessageField">
-              <label for="message">Message:</label>
+              <label class="Contact__label" for="message">Message:</label>
               <textarea name="message" id="message" class="Contact__mesage"></textarea>
             </div>
             <button type="submit" class="btn Contact__btn">Submit</button>

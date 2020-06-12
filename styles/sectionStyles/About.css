@@ -1,0 +1,11 @@
+.About__title {
+  color: var(--accentOrange);
+}
+
+.About__subTitle {
+  color: var(--accentBlue);
+}
+
+.About__info {
+  color: var(--blueOpacity);
+}

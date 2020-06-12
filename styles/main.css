@@ -1,0 +1,9 @@
+/* Variables */
+@import "./variables.css";
+
+/* Section Styles */
+@import "./sectionStyles/Header.css";
+@import "./sectionStyles/About.css";
+@import "./sectionStyles/Work.css";
+@import "./sectionStyles/Contact.css";
+@import "./sectionStyles/Footer.css";

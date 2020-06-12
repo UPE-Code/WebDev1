@@ -58,3 +58,8 @@ In this repository, you will find all the code for the portfolio built in the We
     - `label`
     - `buttons`
     - Other form attributes
+- Colors Branch: Here you will find that all css files have been edited to add color to each element that requires some. In this section we talked about:
+    - hex codes
+    - color names
+    - rgb, rgba
+    - hsl, hsla

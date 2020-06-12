@@ -1,0 +1,11 @@
+.Contact__title {
+  color: var(--accentOrange);
+}
+
+.Contact__subTitle {
+  color: var(--accentBlue);
+}
+
+.Contact__label {
+  color: var(--blueOpacity)
+}

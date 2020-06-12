@@ -1,0 +1,20 @@
+.Header {
+  background-color: var(--blueOpacity);
+}
+
+.Header__logo {
+  color: var(--white);
+}
+
+.Header__navLink {
+  color: var(--white);
+}
+
+.Header__title, 
+.Header__subTitle {
+  color: var(--white);
+}
+ 
+.Header__highlight {
+  color: var(--accentOrange)
+}
