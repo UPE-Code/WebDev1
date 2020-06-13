@@ -1,11 +1,16 @@
 .About__title {
-  color: var(--accentOrange);
+  color: var(--accentYellow);
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .About__subTitle {
   color: var(--accentBlue);
+  font-size: 3.2rem;
 }
 
 .About__info {
-  color: var(--blueOpacity);
+  color: var(--textOpacity);
+  font-size: 1.5rem;
+  line-height: 1.4;
 }

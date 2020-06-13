@@ -1,5 +1,5 @@
 .Header {
-  background-color: var(--blueOpacity);
+  background: linear-gradient(122deg, rgba(24,33,65,.70) 0%, rgba(24,33,65,0.70) 100%);;
 }
 
 .Header__logo,
@@ -31,12 +31,16 @@
   font-size: 3rem;
 }
 
+.Header__wave,
+.Header__highlight {
+  color: var(--accentYellow);
+}
+
 .Header__wave {
-  color: var(--accentOrange);
+  font-size: 2rem;
 }
 
  
 .Header__highlight {
-  color: var(--accentOrange);
   font-style: italic;
 }

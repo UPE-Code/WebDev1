@@ -63,3 +63,12 @@ In this repository, you will find all the code for the portfolio built in the We
     - color names
     - rgb, rgba
     - hsl, hsla
+- Text-CSS Branch: Here you will find that all css files have been edited to add styles to each text element that requires some. In this section we talked about:
+    - font-family
+    - font-size
+    - font-weight
+    - font-style
+    - line-height
+    - text-transform
+    - letter-spacing
+    - px's em's rem's

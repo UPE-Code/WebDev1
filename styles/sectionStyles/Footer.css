@@ -4,8 +4,10 @@
 
 .Footer__copyright {
   color: var(--accentBlue);
+  font-size: 2rem;
 }
 
 .Footer__socialLink {
-  color: var(--accentOrange)
+  color: var(--accentYellow);
+  font-size: 2rem;
 }

@@ -3,17 +3,26 @@
 }
 
 .Work__title {
-  color: var(--accentOrange);
+  color: var(--accentYellow);
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
-.Work__subTitle {
-  color: var(--accentBlue);
-}
-
+.Work__subTitle ,
 .Work__projectTitle {
  color: var(--accentBlue);
 }
 
+.Work__subTitle {
+  font-size: 3.2rem;
+}
+
+.Work__projectTitle {
+  font-size: 2rem;
+}
+
 .Work__projectInfo {
-  color: var(--blueOpacity)
+  color: var(--textOpacity);
+  line-height: 1.4;
+  font-size: 1.5rem;
 }

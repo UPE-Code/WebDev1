@@ -1,11 +1,15 @@
 .Contact__title {
-  color: var(--accentOrange);
+  color: var(--accentYellow);
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 .Contact__subTitle {
   color: var(--accentBlue);
+  font-size: 3.2rem;
 }
 
 .Contact__label {
-  color: var(--blueOpacity)
+  color: var(--textOpacity);
+  font-size: 1.5rem;
 }
