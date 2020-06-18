@@ -1,16 +1,57 @@
+.About {
+  padding: 2.1rem 0;
+}
+
+.About__imgContainer {
+  width: 342px;
+  height: 342px;
+  margin: 2.1rem auto;
+}
+
+.About__img {
+  width: 100%;
+}
+
+.About__content {
+  width: 342px;
+  margin: 2.1rem auto 2.1rem;
+}
+
 .About__title {
   color: var(--accentYellow);
   text-transform: uppercase;
   font-size: 1.5rem;
+  width: 342px;
+  margin: 2.1rem auto;
 }
-
 .About__subTitle {
   color: var(--accentBlue);
   font-size: 3.2rem;
+  width: 342px;
+  margin: 2.1rem auto;
 }
 
 .About__info {
   color: var(--textOpacity);
   font-size: 1.5rem;
   line-height: 1.4;
+  padding: 2rem 0;
+}
+
+.About__btn {
+  width: 342px;
+  padding: 1.5rem 3.5rem;
+  background-color: transparent;
+  border: 3px solid var(--accentYellow);
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  color: var(--accentBlue);
+  cursor: pointer;
+  margin-top: 1rem;
+  transition: all ease 0.5s;
+}
+
+.About__btn:hover {
+  background-color: var(--accentYellow);
+  border-color: transparent;
 }

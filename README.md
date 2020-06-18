@@ -72,3 +72,10 @@ In this repository, you will find all the code for the portfolio built in the We
     - text-transform
     - letter-spacing
     - px's em's rem's
+- Box-Model: Here you will find that all css files have been edited to make use of the Box Model. In this section we talked about:
+    - width
+    - height
+    - padding
+    - margin
+    - border
+    - border-radius

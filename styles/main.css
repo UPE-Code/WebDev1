@@ -1,8 +1,9 @@
 /* Variables */
 @import "./variables.css";
 
-/* Base Styles */
+@import "./reset.css";
 
+/* Base Styles */
 @import "./base.css";
 
 /* Section Styles */
