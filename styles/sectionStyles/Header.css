@@ -7,6 +7,15 @@
     ),
     url("../../assets/header-img.png") center center no-repeat;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.Header__navbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Header__logo,
@@ -21,6 +30,29 @@
   font-weight: 700;
   font-style: italic;
   font-size: 3.2rem;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+.Header__logo::after {
+  content: " ";
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background-color: var(--accentYellow);
+  position: absolute;
+  right: 34%;
+  bottom: 20%;
+}
+
+.Header__navigation {
+  flex-basis: 100%;
+}
+
+.Header__navContent {
+  display: flex;
+  justify-content: center;
 }
 
 .Header__navItem {
@@ -31,6 +63,16 @@
 .Header__navLink {
   text-decoration: none;
   font-size: 2rem;
+}
+
+.Header__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 12%;
 }
 
 .Header__title {
@@ -45,7 +87,6 @@
   font-size: 3rem;
 }
 
-.Header__wave,
 .Header__highlight {
   color: var(--accentYellow);
 }

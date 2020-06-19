@@ -1,10 +1,11 @@
 .About {
   padding: 2.1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .About__imgContainer {
-  width: 342px;
-  height: 342px;
+  width: 95%;
   margin: 2.1rem auto;
 }
 
@@ -13,7 +14,7 @@
 }
 
 .About__content {
-  width: 342px;
+  width: 95%;
   margin: 2.1rem auto 2.1rem;
 }
 
@@ -21,13 +22,13 @@
   color: var(--accentYellow);
   text-transform: uppercase;
   font-size: 1.5rem;
-  width: 342px;
+  width: 95%;
   margin: 2.1rem auto;
 }
 .About__subTitle {
   color: var(--accentBlue);
   font-size: 3.2rem;
-  width: 342px;
+  width: 95%;
   margin: 2.1rem auto;
 }
 
@@ -39,7 +40,7 @@
 }
 
 .About__btn {
-  width: 342px;
+  width: 100%;
   padding: 1.5rem 3.5rem;
   background-color: transparent;
   border: 3px solid var(--accentYellow);

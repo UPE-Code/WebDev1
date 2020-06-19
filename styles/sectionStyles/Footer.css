@@ -3,9 +3,21 @@
   padding: 2.1rem 0;
 }
 
+.Footer__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .Footer__copyright {
   color: var(--accentBlue);
   font-size: 2rem;
+}
+
+.Footer__socials {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .Footer__socialItem {

@@ -1,13 +1,15 @@
 .Work {
   background-color: var(--greyBg);
   padding: 2.1rem 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .Work__title {
   color: var(--accentYellow);
   text-transform: uppercase;
   font-size: 1.5rem;
-  width: 342px;
+  width: 95%;
   margin: 2.1rem auto;
 }
 
@@ -22,12 +24,11 @@
 
 .Work__subTitle {
   font-size: 3.2rem;
-  width: 342px;
+  width: 95%;
   margin: 2.1rem auto;
 }
 .Work__projectImgContainer {
-  width: 342px;
-  height: 342px;
+  width: 95%;
   margin: 0 auto;
 }
 
@@ -36,8 +37,8 @@
 }
 
 .Work__projectContent {
-  width: 342px;
-  margin: 0 auto;
+  width: 95%;
+  margin: 1rem auto;
 }
 
 .Work__projectTitle {
