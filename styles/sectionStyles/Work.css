@@ -61,6 +61,15 @@
   .Work__project {
     flex-basis: 49%;
   }
+}
 
+@media (min-width: 1280px) {
+  .Work__project {
+    flex-basis: 30%;
+  }
 
+  .Work__projectImgContainer {
+    max-width: 500px;
+    margin: 0;
+  }
 }

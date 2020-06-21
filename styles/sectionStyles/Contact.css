@@ -96,4 +96,8 @@
   .Contact__btn {
     flex-basis: 100%;
   }
+
+  .Contact__formContainer {
+    width: 70%
+  }
 }

@@ -74,3 +74,16 @@
     width: 45%;
   }
 }
+
+@media (min-width: 1280px) {
+  .About__imgContainer{
+    max-width: 600px;
+  }
+
+  .About__bio {
+    font-size: 2rem;
+  }
+  .About__bioContent {
+    align-self: center;
+  }
+}

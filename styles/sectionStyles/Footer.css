@@ -29,3 +29,11 @@
   color: var(--accentYellow);
   font-size: 2rem;
 }
+
+
+@media (min-width: 1280px) {
+  .Footer__content {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
