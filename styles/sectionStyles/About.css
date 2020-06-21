@@ -1,21 +1,24 @@
 .About {
   padding: 2.1rem 0;
+}
+
+.About__content{
   display: flex;
   flex-direction: column;
 }
 
 .About__imgContainer {
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 0 auto;
 }
 
 .About__img {
   width: 100%;
 }
 
-.About__content {
+.About__bioContent {
   width: 95%;
-  margin: 2.1rem auto 2.1rem;
+  margin: 0 auto ;
 }
 
 .About__title {
@@ -32,11 +35,11 @@
   margin: 2.1rem auto;
 }
 
-.About__info {
+.About__bio {
   color: var(--textOpacity);
   font-size: 1.5rem;
   line-height: 1.4;
-  padding: 2rem 0;
+  margin-bottom: 2rem;
 }
 
 .About__btn {
@@ -55,4 +58,19 @@
 .About__btn:hover {
   background-color: var(--accentYellow);
   border-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .About__content{
+    flex-direction: row;
+  }
+
+  .About__imgContainer {
+    width: 45%;
+    align-self: center;
+  }
+
+  .About__bioContent {
+    width: 45%;
+  }
 }

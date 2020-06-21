@@ -1,21 +1,18 @@
 .Header {
   height: 100vh;
-  background: linear-gradient(
-      122deg,
-      rgba(24, 33, 65, 0.7) 0%,
-      rgba(24, 33, 65, 0.7) 100%
-    ),
-    url("../../assets/header-img.png") center center no-repeat;
+  background: url("../../assets/header-bg.svg") center center no-repeat;
   background-size: cover;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 10% 1fr
 }
 
 .Header__navbar {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  grid-area: 1 / 1 / 2 / -1;
+  align-self: start;
 }
 
 .Header__logo,
@@ -31,7 +28,6 @@
   font-style: italic;
   font-size: 3.2rem;
   position: relative;
-  width: 100%;
   text-align: center;
 }
 
@@ -42,7 +38,7 @@
   border-radius: 100%;
   background-color: var(--accentYellow);
   position: absolute;
-  right: 34%;
+  right: -17%;
   bottom: 20%;
 }
 
@@ -70,9 +66,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 50%;
-  left: 12%;
+  justify-self: center;
+  grid-area: 2 / 1 / -1 / -1;
 }
 
 .Header__title {
@@ -97,4 +92,29 @@
 
 .Header__highlight {
   font-style: italic;
+}
+
+
+@media (min-width: 768px) {
+  .Header__navbar {
+    flex-wrap: nowrap;
+    justify-content: space-evenly
+  }
+
+  .Header__logo::after {
+    bottom: 35%;
+    right: -16%;
+  }
+
+  .Header__navigation {
+    flex-basis: initial;
+  }
+
+  .Header__title {
+    font-size: 6rem;
+  }
+
+  .Header__subTitle {
+    font-size: 3.5rem;
+  }
 }
