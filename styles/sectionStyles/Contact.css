@@ -24,6 +24,16 @@
   margin: 0 auto;
 }
 
+.Contact__form{
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact__inputs {
+  display: flex;
+  flex-direction: column;
+}
+
 .Contact__formField,
 .Contact__MessageField {
   margin-bottom: 1rem;
@@ -45,7 +55,7 @@
 .Contact__mesage {
   margin-top: 1rem;
   width: 100%;
-  height: 150px;
+  height: 235px;
   border: 3px solid var(--accentYellow);
   border-radius: 0.6rem;
 }
@@ -66,4 +76,28 @@
 .Contact__btn:hover {
   background-color: var(--accentYellow);
   border-color: transparent;
+}
+
+@media (min-width: 768px) {
+  .Contact__form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .Contact__inputs {
+    flex-basis: 49%;
+  }
+
+  .Contact__MessageField {
+    flex-basis: 49%;
+  }
+
+  .Contact__btn {
+    flex-basis: 100%;
+  }
+
+  .Contact__formContainer {
+    width: 70%
+  }
 }
