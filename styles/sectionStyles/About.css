@@ -2,7 +2,7 @@
   padding: 2.1rem 0;
 }
 
-.About__content{
+.About__content {
   display: flex;
   flex-direction: column;
 }
@@ -18,7 +18,7 @@
 
 .About__bioContent {
   width: 95%;
-  margin: 0 auto ;
+  margin: 0 auto;
 }
 
 .About__title {
@@ -26,13 +26,13 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 2.1rem auto 1rem;
 }
 .About__subTitle {
   color: var(--accentBlue);
   font-size: 3.2rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 0 auto 2.1rem;
 }
 
 .About__bio {
@@ -61,7 +61,7 @@
 }
 
 @media (min-width: 768px) {
-  .About__content{
+  .About__content {
     flex-direction: row;
   }
 
@@ -76,7 +76,7 @@
 }
 
 @media (min-width: 1280px) {
-  .About__imgContainer{
+  .About__imgContainer {
     max-width: 600px;
   }
 

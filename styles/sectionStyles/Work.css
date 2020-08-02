@@ -10,7 +10,7 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 2.1rem auto 1rem;
 }
 
 .Work__projects {
@@ -35,7 +35,7 @@
 .Work__subTitle {
   font-size: 3.2rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 0 auto 2.1rem;
 }
 .Work__projectImgContainer {
   width: 100%;

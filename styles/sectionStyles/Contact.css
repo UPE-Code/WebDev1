@@ -9,14 +9,14 @@
   text-transform: uppercase;
   font-size: 1.5rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 2.1rem auto 1rem;
 }
 
 .Contact__subTitle {
   color: var(--accentBlue);
   font-size: 3.2rem;
   width: 95%;
-  margin: 2.1rem auto;
+  margin: 0 auto 2.1rem;
 }
 
 .Contact__formContainer {
@@ -24,7 +24,7 @@
   margin: 0 auto;
 }
 
-.Contact__form{
+.Contact__form {
   display: flex;
   flex-direction: column;
 }
@@ -98,6 +98,6 @@
   }
 
   .Contact__formContainer {
-    width: 70%
+    width: 70%;
   }
 }
